@@ -1,1 +1,1 @@
-Hii
+{{$data['email']}}
