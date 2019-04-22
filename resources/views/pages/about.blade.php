@@ -1,1 +1,3 @@
-{{$data['email']}}
+@extends('main')
+@section('content');
+    @endsection
