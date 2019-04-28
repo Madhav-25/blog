@@ -1,3 +1,4 @@
 @extends('main')
-@section('content');
+@section('title', '| about')
+@section('content')
     @endsection

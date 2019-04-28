@@ -1,4 +1,10 @@
 @extends('main')
+
+@section('title', '| welcome' )
+
+@section('stylesheets')
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    @endsection
 @section('content');
 
 <div class="row">
@@ -40,4 +46,10 @@
     </div>
 </div>
 @endsection
+
+@section('scripts')
+    <script>
+        confirm('I loaded up some js');
+    </script>
+    @endsection
 
