@@ -1,11 +1,11 @@
-@extends('main')
+@extends('layouts.app')
 
 @section('title', '| welcome' )
 
 @section('stylesheets')
     <link rel="stylesheet" type="text/css" href="styles.css">
     @endsection
-@section('content');
+@section('content')
 
 <div class="row">
     <div class="col-md-12">
@@ -48,8 +48,6 @@
 @endsection
 
 @section('scripts')
-    <script>
-        confirm('I loaded up some js');
-    </script>
+
     @endsection
 

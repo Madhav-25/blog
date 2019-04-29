@@ -1,0 +1,1 @@
+<b>{{$username}}</b> has posted in your blog
